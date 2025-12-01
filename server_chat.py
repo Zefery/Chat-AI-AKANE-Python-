@@ -11,8 +11,8 @@ from openai import OpenAI
 # --- PENGATURAN KLIEN AI (CHUTES & OPENROUTER) ---
 # Pastikan Anda mengatur Environment Variables untuk API Key Anda
 
-CHUTES_API_KEY = os.environ.get("CHUTES_API_KEY", "cpk_0c9ca26aa1d044448752c1379a319d3c.1dfee2f4afbb5bffb9f9ef74ce7ba366.IO16L9we5Ilxcs3wC0xMA2dPm6w8ujCs")
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "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")
+CHUTES_API_KEY = os.environ.get("CHUTES_API_KEY", "")
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 #CHUTES_API_KEY = ""
 # OPENROUTER_API_KEY = ""
 
